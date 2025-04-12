@@ -1,0 +1,163 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.book-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.chapter {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.chapter:first-of-type {
+    border-top: none;
+}
+
+.section {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    border-radius: 0.375rem;
+    margin: 1rem 0;
+    overflow-x: auto;
+    background-color: #2d2d2d;
+    /* Okaidia background */
+    padding: 1em;
+}
+
+pre code {
+    display: block;
+    white-space: pre;
+    color: #f8f8f2;
+    /* Okaidia text color */
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1a56db;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #1e429f;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #2563eb;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #3b82f6;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.toc-link {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.toc-link:hover {
+    text-decoration: underline;
+}
+
+.note {
+    background-color: #f3f4f6;
+    border-left: 4px solid #3b82f6;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.375rem;
+}
+
+.warning {
+    background-color: #fff7ed;
+    border-left: 4px solid #f97316;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.375rem;
+}
+
+.tip {
+    background-color: #ecfdf5;
+    border-left: 4px solid #10b981;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.375rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+}
+
+th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    text-align: left;
+}
+
+.code-result {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+    overflow-x: auto;
+}
+
+/* Utility Classes for Examples */
+.example-class-definitions {
+    background-color: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.example-class-definitions h5 {
+    color: #4338ca;
+    margin-bottom: 0.5rem;
+}
